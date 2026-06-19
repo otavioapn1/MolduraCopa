@@ -8,7 +8,7 @@ let processedFrameDataUrl: string | null = null;
 
 /**
  * Loads an image from URL, draws it onto an offscreen canvas,
- * filters out the solid white background (R > 240, G > 240, B > 240)
+ * filters out the solid white background (R > 240, G > 240, B > 240).
  * while protecting the CBF shield area at the bottom center from losing its white background.
  */
 export async function getCleanTransparentFrame(srcUrl: string): Promise<string> {
