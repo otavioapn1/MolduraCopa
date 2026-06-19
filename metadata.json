@@ -1,0 +1,6 @@
+{
+  "name": "Stories Seleção Brasileira",
+  "description": "Crie e compartilhe imagens personalizadas para Stories do Instagram e Status do WhatsApp com a moldura oficial da Seleção Brasileira.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
